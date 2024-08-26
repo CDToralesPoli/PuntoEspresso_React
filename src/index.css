@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(./fonts/Lato/Lato-Regular.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Lato Bold';
+  src: local('Lato-Bold'), url(./fonts/Lato/Lato-Bold.ttf) format('opentype');
+}
+
+:root {
+  font-family: 'Lato', sans-serif;
+  color-scheme: light dark;
+  color: #28282A;
+
+  background: rgb(216,213,196);
+  background: linear-gradient(0deg, rgba(216,213,196,1) 0%, rgba(255,255,255,1) 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+

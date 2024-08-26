@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(./fonts/Lato/Lato-Regular.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Lato Bold';
+  src: local('Lato-Bold'), url(./fonts/Lato/Lato-Bold.ttf) format('opentype');
+}
+
+#root {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+/* Header */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 10rem;
+  padding: 0 1rem;
+  margin-top: -1rem;
+  image-rendering: crisp-edges;
+  cursor: pointer;
+}
+
+.menu {
+  margin-bottom: -1.5rem;
+}
+
+.botonMenu {
+  font-family: 'Lato Bold', sans-serif;
+  background-color: transparent;
+  border: 0;
+  color: #28282A;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cartWidget { 
+  display: flex;
+  align-items: center;
+  padding: 1.5em;
+  cursor: pointer;
+  margin-bottom: -1.5rem;
+}
+
+.cartIcon {
+  height: 1.2rem;
+  margin-left: 2rem;
+}
+
+.count {
+  vertical-align: super;
+  font-size: 0.7rem;
+  color: #D8D5C4;
+  background-color: #5A6E5A;
+  border-radius: 100%;
+  margin-bottom: 1.5rem;
+  margin-left: -0.5rem;
+  padding: 0.1rem 0.35rem;
+}
+
+.userAccountIcon {
+  height: 1.2rem;
+  margin-left: 2rem;
+}
+
+/* Main */
+
+.itemListContainer {
+  margin-top: 3rem;
+}
