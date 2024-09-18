@@ -1,0 +1,66 @@
+.ItemCard {
+    margin: auto;
+    display: grid;
+    /* width: min(300px, 100%); */
+    /* width: 50vh; */
+    /* max-height: 50vh; */
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: #141417;
+    background-color: #ffffff;
+}
+
+.Img {
+    width:75vh;
+    height: auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+
+.Item p {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem !important;
+    text-align: start;
+}
+
+.ItemView {
+    display: inline-flex;
+    padding: 0.5rem;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+.Price {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: start;
+    margin: 0rem 0 1rem 0 !important;
+}
+
+.Name {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.Region {
+    font-size: 0.8rem;
+}
+
+.LearnMore {
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 0.5rem .5rem;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #5A6E5A;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 1rem;
+}
+
+.Link {
+    color:#FFFFFF;
+}

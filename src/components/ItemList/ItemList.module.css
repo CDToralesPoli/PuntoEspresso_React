@@ -1,0 +1,12 @@
+.ItemList {
+    max-width: 1200px;
+    margin: .5rem;
+    display: grid;
+    gap:1rem 2rem;
+}
+@media (min-width: 600px) {
+    .ItemList { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 900px) {
+    .ItemList { grid-template-columns: repeat(4, 1fr); }
+}

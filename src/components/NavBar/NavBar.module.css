@@ -1,0 +1,33 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    margin-bottom: -1.5rem;
+  }
+  
+  .botonMenu {
+    background-color: transparent;
+    border: 0;
+    /* color: #28282A; */
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    height: 10rem;
+    padding: 0 1rem;
+    margin-top: -1rem;
+    image-rendering: crisp-edges;
+    cursor: pointer;
+  }
+
+a {
+    text-decoration: none;
+    color: #28282A;
+    font-weight: 600;
+  }

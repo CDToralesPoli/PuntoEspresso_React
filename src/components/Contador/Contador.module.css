@@ -1,0 +1,23 @@
+.Contador {
+    display: inline-flex;
+    border-color: black;
+    height: 2rem;
+}
+
+.Contador p {
+    margin: .5rem;
+}
+
+.Contador button {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 0 .5rem;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #5A6E5A;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 1rem;
+}

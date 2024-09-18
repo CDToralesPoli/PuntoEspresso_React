@@ -1,0 +1,86 @@
+[
+    {
+        "id": "capsula-01",
+        "titulo": "Ristretto",
+        "imagen": "../src/assets/img/capsulas/01.png",
+        "categoriaId": "capsulas",
+        "precio": 13000
+    },
+    {
+        "id": "capsula-02",
+        "titulo": "Colombia",
+        "imagen": "../src/assets/img/capsulas/02.png",
+        "categoriaId": "capsulas",
+        "precio": 16000
+    },
+    {
+        "id": "capsula-03",
+        "titulo": "Chiaro",
+        "imagen": "../src/assets/img/capsulas/03.png",
+        "categoriaId": "capsulas",
+        "precio": 14500
+    },
+    {
+        "id": "capsula-04",
+        "titulo": "Shanghai",
+        "imagen": "../src/assets/img/capsulas/04.png",
+        "categoriaId": "capsulas",
+        "precio": 15000
+    },
+    {
+        "id": "capsula-05",
+        "titulo": "Lungo",
+        "imagen": "../src/assets/img/capsulas/05.png",
+        "categoriaId": "capsulas",
+        "precio": 14500
+    },
+    {
+        "id": "capsula-06",
+        "titulo": "Arpeggio",
+        "imagen": "../src/assets/img/capsulas/06.png",
+        "categoriaId": "capsulas",
+        "precio": 14500
+    },
+    {
+        "id": "capsula-07",
+        "titulo": "Tokyo",
+        "imagen": "../src/assets/img/capsulas/07.png",
+        "categoriaId": "capsulas",
+        "precio": 14500
+    },
+    {
+        "id": "capsula-08",
+        "titulo": "Vienna",
+        "imagen": "../src/assets/img/capsulas/08.png",
+        "categoriaId": "capsulas",
+        "precio": 14500
+    },
+    {
+        "id": "maquina-01",
+        "titulo": "Citiz",
+        "imagen": "../src/assets/img/maquinas/01.png",
+        "categoriaId": "maquinas",
+        "precio": 368290
+    },
+    {
+        "id": "maquina-02",
+        "titulo": "Lattissima",
+        "imagen": "../src/assets/img/maquinas/02.png",
+        "categoriaId": "maquinas",
+        "precio": 755090
+    },
+    {
+        "id": "maquina-03",
+        "titulo": "Aeroccino",
+        "imagen": "../src/assets/img/maquinas/03.png",
+        "categoriaId": "maquinas",
+        "precio": 159790
+    },
+    {
+        "id": "maquina-04",
+        "titulo": "Essenza",
+        "imagen": "../src/assets/img/maquinas/04.png",
+        "categoriaId": "maquinas",
+        "precio": 228390
+    }
+]
