@@ -37,7 +37,6 @@ const Checkout = () => {
     }
 
     if (orderConfirmed) {
-        console.log(orderId)
         return <h2>¡Muchas gracias por tu compra! <br /> Estamos procesando tu pedido. Tu número de orden es: {orderId}</h2>
               
     }
