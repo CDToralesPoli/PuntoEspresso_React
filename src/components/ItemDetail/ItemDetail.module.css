@@ -1,9 +1,6 @@
 .ItemCard {
     margin: auto;
     display: grid;
-    /* width: min(300px, 100%); */
-    /* width: 50vh; */
-    /* max-height: 50vh; */
     border-radius: 1rem;
     padding: 0.5rem;
     color: #141417;
@@ -30,23 +27,23 @@
     box-sizing: border-box;
 }
 
-.Price {
+Price {
     font-weight: 600;
     font-size: 2rem;
     text-align: start;
     margin: 0rem 0 1rem 0 !important;
 }
 
-.Name {
+Name {
     font-weight: 600;
     font-size: 2rem;
 }
 
-.Region {
+Region {
     font-size: 0.8rem;
 }
 
-.LearnMore {
+LearnMore {
     width: 100%;
     cursor: pointer;
     outline: none;
@@ -59,6 +56,97 @@
     text-align: center;
     color: #FFFFFF;
     border-radius: 1rem;
+}
+
+Link {
+    color:#FFFFFF;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    width: 1024px;
+    margin: 0rem 0rem 2rem 0rem;
+    border-radius: 1rem;
+    background-color: #F7F7F7;
+}
+
+.ImageContainer {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width:75vh;
+    transform: scale(1.5);
+}
+
+.InfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 0 0 25px;
+}
+
+.Name {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    word-break: break-all;
+}
+
+.Region {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.Price {
+    font-weight: 400;
+}
+
+.Price p {
+    color: #5A6E5A;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.Description {
+    max-height: 150px;
+    overflow:auto;
+    width: 100%;
+}
+
+.Description p {
+    font-size: 1rem;
+    text-align: start;
+}
+
+.AddToCart {
+    display: flex;
+    align-items: center;
+}
+
+.Add {
+    background-color: #5A6E5A;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
 }
 
 .Link {

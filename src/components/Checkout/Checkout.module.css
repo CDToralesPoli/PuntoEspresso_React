@@ -1,0 +1,30 @@
+button {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 0 .5rem;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #5A6E5A;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 1rem;
+}
+
+button a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 0 .5rem;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #5A6E5A;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 1rem;
+}

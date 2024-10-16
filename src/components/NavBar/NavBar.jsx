@@ -1,12 +1,12 @@
 import styles from './NavBar.module.css'
 import logo from './assets/logo.png'
 import CartWidget from '../CartWidget/CartWidget'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function NavBar () {
     return (
-        <nav className={styles.navBar}>
-            <NavLink to={'/'} ><img className={styles.logo} src={logo} alt="logo-punto-espresso" /></NavLink>
+        <nav id={styles.navBar} className={styles.navBar}>
+            <Link to={'/'} ><img className={styles.logo} src={logo} alt="logo-punto-espresso" /></Link>
             <div className={styles.menu} >
                 <NavLink className={styles.botonMenu} to={'/'}> Inicio </NavLink>
                 <NavLink className={styles.botonMenu} to={'categoria/Asia Pacific'}> Asia </NavLink>

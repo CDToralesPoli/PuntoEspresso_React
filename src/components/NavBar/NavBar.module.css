@@ -11,7 +11,6 @@
   .botonMenu {
     background-color: transparent;
     border: 0;
-    /* color: #28282A; */
     cursor: pointer;
     padding: 1rem;
     margin: 0 0.5rem;
@@ -28,6 +27,11 @@
 
 a {
     text-decoration: none;
-    color: #28282A;
+    color : #5A6E5A;
     font-weight: 600;
   }
+
+
+[aria-current="page"] {
+  color: #28282A;
+}

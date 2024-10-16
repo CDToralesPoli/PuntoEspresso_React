@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import styles from './ItemDetailContainer.module.css'
+import { getProductById } from '../../firebase/db'
 
 function ItemDetailContainer () {
     const [item, setItem] = useState(null)
@@ -9,9 +10,7 @@ function ItemDetailContainer () {
     
 
     useEffect(() => {
-        fetch(`https://fake-coffee-api.vercel.app/api/${id}`)
-        .then(res => res.json())
-        .then(res => setItem(res))
+        getProductById(id, setItem)
     }, [id])
 
     return (
